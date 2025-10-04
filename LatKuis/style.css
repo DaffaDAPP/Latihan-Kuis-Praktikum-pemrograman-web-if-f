@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background: radial-gradient(circle at right bottom, #5F30F8, #FC8867, #1A1A1A, #1A1A1A, #1A1A1A, #1A1A1A);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    padding: 50px 70px;
+    color: #fff ;
+}
+
+header div p{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+header div h1{
+    background: linear-gradient(to right,  #5F30F8, #FC8867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-panah{
+    padding: 6px 8px;
+    background-color: #2D272A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn-panah:hover{
+    background-color: rgba(43,39,41, 0.7);
+}
+
+.btn-panah:active{
+    transform: scale(0.9);
+}
+
+.carousel{ 
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    position: relative; 
+    width: 93.4%; 
+    margin-left: 90px;
+    margin-top: 30px; 
+    overflow-x: hidden;
+}
+
+.pisah{
+    display: flex;
+    
+}
+
+.kotaknyah{ 
+    background: rgba(33,33,33,0.6); 
+    border-radius: 12px; 
+    margin: 0 15px; 
+    padding: 10px;
+    flex: 0 0 240px;
+    height: 340px;
+    text-align: center; 
+    transition: transform (0.3s);
+}
+
+.kotaknyah img {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.isi{
+    font-weight: 250;
+    font-size: 10px;
+    color: #fff;
+}
+
+.star{
+    word-spacing: -20px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.jalur{
+    display: flex;
+    transition: transform 350ms ease;
+    will-change: transform;
+}
+
